@@ -24,8 +24,12 @@ const Topbar = (props: {black?: boolean}) => (
               nyc on cinestill
             </NavLink>
             <br />
-            <NavLink to={{pathname: `/photos/thepigs-for-mcmintea`}}>
-              @thepigs for @mcmintea
+            <NavLink to={{pathname: `/photos/contacts/nyc-antoinette`}}>
+              antoinette
+            </NavLink>
+            <br />
+            <NavLink to={{pathname: `/photos/contacts/lisa-at-home`}}>
+              Lisa at home
             </NavLink>
             <br />
             <NavLink to={{pathname: `/photos/kchaooo-for-oliviashihdesign`}}>

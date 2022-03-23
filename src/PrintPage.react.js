@@ -1,8 +1,4 @@
-import {
-  importAllAsArray,
-  importAllAsDict,
-  SinglePhotoGallery,
-} from 'mngyuan-lib';
+import {importAllAsArray, importAllAsDict, SinglePhotoGallery} from './lib';
 import React from 'react';
 import Helmet from 'react-helmet';
 

@@ -2,7 +2,7 @@ import * as React from 'react';
 import Helmet from 'react-helmet';
 import {Link} from 'react-router-dom';
 
-import {importAll} from 'mngyuan-lib';
+import {importAll} from './lib';
 import Topbar from './Topbar.react';
 import {SETS} from './Photos.react';
 

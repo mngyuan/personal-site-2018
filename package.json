@@ -21,7 +21,7 @@
     "eslint-plugin-react": "^7.8.2",
     "eslint-plugin-standard": "^3.1.0",
     "history": "^4.7.2",
-    "mngyuan-lib": "file:/Users/phorust/git/lib/build",
+    "mngyuan-lib": "file:/Users/mngyuan/git/freelance/lib/dist",
     "prettier": "^1.12.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",

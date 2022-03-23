@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Helmet from 'react-helmet';
 
-import {importAll} from 'mngyuan-lib';
+import {importAll} from './lib';
 import Topbar from './Topbar.react';
 
 export const SETS = {

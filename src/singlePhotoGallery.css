@@ -1,0 +1,52 @@
+.singlephotogallery-container {
+  justify-content: center;
+  user-select: none;
+  position: relative;
+  display: flex;
+  height: 100%;
+}
+.singlephotogallery-container > .left,
+.singlephotogallery-container > .right {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+}
+.singlephotogallery-container > .left {
+  left: 0;
+  cursor: w-resize;
+}
+.singlephotogallery-container > .right {
+  right: 0;
+  cursor: e-resize;
+}
+.singlephotogallery-container > img {
+  /* the cover of milkfat is fitting strangely */
+  object-fit: contain;
+  width: 100%;
+}
+.mobileOnly {
+  display: none;
+}
+
+.singlephotogallery-container > img {
+  height: 100%;
+  margin-right: 12px;
+}
+
+.mobileOnly {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .singlephotogallery-container {
+    display: none;
+  }
+
+  .mobileOnly {
+    display: flex;
+    flex-direction: column;
+  }
+  .mobileOnly > div > img {
+    width: 100%;
+  }
+}
