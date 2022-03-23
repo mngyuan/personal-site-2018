@@ -4,7 +4,6 @@
   "private": true,
   "devDependencies": {
     "flow-bin": "^0.82.0",
-    "gh-pages": "^1.0.0",
     "react-scripts": "^1.0.17",
     "react-snap": "^1.19.0"
   },
@@ -34,9 +33,7 @@
     "build": "react-scripts build",
     "postbuild": "react-snap",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -b master -d build"
+    "eject": "react-scripts eject"
   },
   "prettier": {
     "singleQuote": true,
@@ -45,10 +42,7 @@
   },
   "reactSnap": {
     "waitFor": 1000,
-    "include": [
-      "/",
-      "/sitemap"
-    ]
+    "include": ["/", "/sitemap"]
   },
   "homepage": "https://phorust.github.io"
 }
