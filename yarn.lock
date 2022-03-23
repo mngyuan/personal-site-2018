@@ -2223,13 +2223,6 @@ debug@2.6.9, debug@^2.1.2, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.
   dependencies:
     ms "2.0.0"
 
-debug@=3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
-  integrity sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g==
-  dependencies:
-    ms "2.0.0"
-
 debug@^3.0.1, debug@^3.1.0:
   version "3.2.6"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
@@ -3522,11 +3515,9 @@ flow-bin@^0.82.0:
   integrity sha512-D7ViTCVJSVv19CB6dFWS9k2iKQlavtkRXn9el0ofVTTpGuybe+EPE8DZwdyohzEt6wRhHV8gwkteWvxdcVuOzg==
 
 follow-redirects@^1.0.0:
-  version "1.5.9"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.5.9.tgz#c9ed9d748b814a39535716e531b9196a845d89c6"
-  integrity sha512-Bh65EZI/RU8nx0wbYF9shkFZlqLP+6WT/5FnA3cE/djNSuKNHJEinGGZgu/cQEkeeb2GdFOgenAmn8qaqYke2w==
-  dependencies:
-    debug "=3.1.0"
+  version "1.14.9"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.9.tgz#dd4ea157de7bfaf9ea9b3fbd85aa16951f78d8d7"
+  integrity sha512-MQDfihBQYMcyy5dhRDJUHcw7lb2Pv/TuE6xP1vyraLukNDHKbDxDNaOE3NbCAdKQApno+GPRyo1YAp89yCjK4w==
 
 for-in@^1.0.1, for-in@^1.0.2:
   version "1.0.2"
@@ -5634,7 +5625,7 @@ mkdirp@0.5.1, mkdirp@0.5.x, mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.0, mkdirp@
   dependencies:
     minimist "0.0.8"
 
-"mngyuan-lib@file:../../freelance/lib/dist":
+"mngyuan-lib@file:../../../../../Users/mngyuan/git/freelance/lib/dist":
   version "0.0.0"
 
 ms@2.0.0:
